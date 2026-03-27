@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode[] splitListToParts(ListNode head, int k) {
-        ListNode[] result = new ListNode[0];
+        ListNode[] result = new ListNode[k];
 
         // Step 1: count nodes
         int count = 0;
